@@ -124,8 +124,8 @@ async function loadPrice(){
     const data=await response.json();
     if(!Number.isFinite(data.price)||data.price<=0) throw new Error('invalid price');
     priceEl.textContent=new Intl.NumberFormat('ru-RU').format(data.price)+' ₽';
-    statusEl.textContent='Цена из карточки Wildberries · обновлено '+new Date(data.updated_at).toLocaleString('ru-RU');
-  }catch(e){statusEl.textContent='Не удалось обновить цену. Проверьте её на Wildberries.';}
+    statusEl.textContent='Актуальная цена по данным Wildberries';
+  }catch(e){statusEl.textContent='Проверьте актуальную цену на Wildberries';}
 }
 loadPrice();
 const modal=document.getElementById('modal'),modalImage=document.getElementById('modalImage');
