@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://h17h4k.github.io/bask-putorana/sitemap.xml
