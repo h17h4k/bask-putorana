@@ -1,132 +1,133 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Мужской пуховик BASK Putorana V2 — красный, размер 52/5</title>
-<meta name="description" content="Продам оригинальный мужской зимний пуховик BASK Putorana V2. Красная пуховая парка, размер 52/5. Гусиный пух, мембрана Advance Alaska. Отличное состояние.">
-<meta name="keywords" content="пуховик мужской, мужской зимний пуховик, красный пуховик, BASK, BASK Putorana V2, пуховая парка, зимняя куртка мужская, размер 52">
-<meta name="robots" content="index, follow">
-<meta property="og:title" content="BASK Putorana V2 — мужская зимняя парка">
-<meta property="og:description" content="Оригинальная красная пуховая парка BASK. Размер 52/5. Отличное состояние.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#111318">
+<title>BASK Putorana V2 — красная мужская пуховая парка, 52/5</title>
+<meta name="description" content="Оригинальная мужская зимняя пуховая парка BASK Putorana V2, красная, размер 52/5. Фотографии реального изделия, характеристики и ссылка на объявление Wildberries.">
 <style>
+:root{--bg:#101216;--panel:#191d23;--muted:#aeb5c0;--text:#f6f7f9;--red:#e3262e;--line:#303640}
 *{box-sizing:border-box}
-body{margin:0;background:#111318;color:#f4f4f5;font-family:Arial,sans-serif;line-height:1.6}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
 a{color:inherit}
-.container{width:min(1100px,92%);margin:auto}
-header{padding:24px 0;border-bottom:1px solid #30323a}
-.logo{font-size:21px;font-weight:800;letter-spacing:2px}
-.logo span{color:#e34b43}
-.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:45px;align-items:center;padding:65px 0}
-.photo{min-height:480px;border-radius:18px;background:linear-gradient(145deg,#292d35,#15171c);display:flex;align-items:center;justify-content:center;overflow:hidden;border:1px solid #393d47}
-.photo img{width:100%;height:100%;object-fit:cover}
-.photo-placeholder{text-align:center;padding:35px;color:#aeb3bd}
-.photo-placeholder strong{display:block;font-size:22px;color:#f4f4f5;margin-bottom:10px}
-.tag{display:inline-block;background:#292d35;color:#ff7770;padding:7px 13px;border-radius:30px;font-size:13px;margin-bottom:18px}
-h1{font-size:clamp(32px,5vw,49px);line-height:1.12;margin:0 0 20px}
-.subtitle{color:#b7bbc4;font-size:18px}
-.price{font-size:36px;font-weight:800;margin:25px 0 5px}
-.size{color:#b7bbc4;margin-bottom:25px}
-.btn{display:inline-block;background:#d83f39;color:white;text-decoration:none;font-weight:700;padding:17px 27px;border-radius:9px;transition:.2s}
-.btn:hover{background:#f05249}
-.note{font-size:13px;color:#9298a4;margin-top:14px}
-section{padding:42px 0;border-top:1px solid #30323a}
-h2{font-size:28px;margin:0 0 25px}
-.description{color:#c5c8d0;max-width:800px}
-.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
-.item{background:#1b1e25;padding:16px 18px;border-radius:9px;color:#d5d8df}
-.item b{color:white}
-.bottom{text-align:center;padding:55px 0 65px}
-.bottom p{color:#b7bbc4}
-footer{text-align:center;padding:25px;color:#777e8b;border-top:1px solid #30323a;font-size:13px}
-@media(max-width:750px){
-.hero{grid-template-columns:1fr;gap:25px;padding:35px 0}
-.photo{min-height:340px}
-.grid{grid-template-columns:1fr}
-h1{font-size:34px}
-}
+.wrap{width:min(1180px,calc(100% - 32px));margin:auto}
+header{padding:22px 0;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.08em}
+.brand-mark{width:38px;height:38px;background:var(--red);clip-path:polygon(50% 0,61% 35%,100% 50%,61% 65%,50% 100%,39% 65%,0 50%,39% 35%)}
+.brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:.18em}
+main{padding:34px 0 70px}
+.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(320px,.95fr);gap:34px;align-items:start}
+.gallery{min-width:0}
+.main-photo{width:100%;aspect-ratio:4/5;object-fit:contain;background:#f2f2f2;border-radius:18px;display:block;cursor:zoom-in}
+.thumbs{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;margin-top:10px}
+.thumb{border:1px solid var(--line);padding:0;border-radius:10px;overflow:hidden;background:#242830;cursor:pointer;aspect-ratio:1}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.info{position:sticky;top:20px}
+.eyebrow{color:#ff6268;font-weight:800;letter-spacing:.12em;font-size:12px}
+h1{font-size:clamp(30px,4vw,48px);line-height:1.04;margin:10px 0 14px;letter-spacing:-.04em}
+.sub{color:var(--muted);margin:0 0 22px}
+.price{font-size:34px;font-weight:900;margin:20px 0 4px}
+.meta{color:var(--muted);font-size:14px}
+.cta{display:inline-flex;align-items:center;justify-content:center;background:var(--red);color:#fff;text-decoration:none;font-weight:800;padding:15px 22px;border-radius:12px;margin:22px 0 8px;transition:.2s}
+.cta:hover{background:#ff343d;transform:translateY(-1px)}
+.note{font-size:12px;color:var(--muted)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px;margin-top:24px}
+h2{font-size:22px;margin:0 0 14px}
+.specs{display:grid;grid-template-columns:1fr 1fr;gap:10px 20px}
+.spec{border-bottom:1px solid var(--line);padding:8px 0}
+.spec b{display:block;font-size:13px;color:var(--muted);font-weight:500}
+.spec span{font-weight:700}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.feature{background:#20252d;border-radius:12px;padding:14px}
+.feature strong{display:block;font-size:15px}
+.feature span{color:var(--muted);font-size:12px}
+.description{color:#e1e4e9}
+footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:12px}
+.modal{position:fixed;inset:0;background:#000e;display:none;align-items:center;justify-content:center;padding:20px;z-index:10}
+.modal.open{display:flex}
+.modal img{max-width:min(100%,1100px);max-height:92vh;object-fit:contain}
+.modal button{position:absolute;top:16px;right:20px;background:#fff;color:#111;border:0;border-radius:50%;width:42px;height:42px;font-size:24px;cursor:pointer}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.info{position:static}.main-photo{aspect-ratio:4/5}.features{grid-template-columns:1fr 1fr}}
+@media(max-width:460px){.wrap{width:min(100% - 22px,1180px)}main{padding-top:18px}.thumbs{grid-template-columns:repeat(4,1fr)}.specs{grid-template-columns:1fr 1fr}.card{padding:16px}.price{font-size:30px}}
 </style>
 </head>
 <body>
-<header>
-<div class="container logo">BASK <span>PUTORANA V2</span></div>
-</header>
-
-<main class="container">
-<div class="hero">
-<div class="photo">
-<div class="photo-placeholder">
-<strong> BASK PUTORANA V2 </strong>
-Красная мужская зимняя пуховая парка<br>
-Здесь будет фотография куртки
-</div>
-</div>
-
-<div>
-<div class="tag">ОРИГИНАЛЬНАЯ ПАРКА BASK</div>
-<h1>Мужской зимний пуховик BASK Putorana V2</h1>
-<p class="subtitle">Красная пуховая парка для суровой зимы. Серия «За Полярным кругом».</p>
-<div class="price">23 990 ₽</div>
-<div class="size">Размер 52/5 · Цвет красный · Состояние отличное</div>
-<a class="btn" href="https://www.wildberries.ru/catalog/1605620355/detail.aspx" target="_blank" rel="noopener noreferrer">Посмотреть на Wildberries →</a>
-<p class="note">Продажа частным лицом. Наличие и актуальную цену проверяйте на Wildberries.</p>
-</div>
-</div>
-
-<section>
-<h2>О пуховике</h2>
-<div class="description">
-<p>Продаётся оригинальная мужская зимняя пуховая парка BASK Putorana V2 из серии «За Полярным кругом».</p>
-<p>Куртка покупалась для себя, но после похудения стала велика. Состояние отличное: без повреждений и заметных следов эксплуатации. Все молнии, кнопки, липучки и регулировки работают исправно.</p>
-</div>
+<header><div class="wrap brand"><span class="brand-mark"></span><div>BASK<small>ЗА ПОЛЯРНЫМ КРУГОМ</small></div></div></header>
+<main class="wrap">
+<section class="hero">
+  <div class="gallery">
+    <img id="mainPhoto" class="main-photo" src="https://mow-basket-cdn-17.geobasket.ru/vol16056/part1605620/1605620355/images/big/1.webp?picsUpdate=0" alt="Красная парка BASK Putorana V2, вид спереди">
+    <div class="thumbs" id="thumbs" aria-label="Фотографии товара"></div>
+  </div>
+  <div class="info">
+    <div class="eyebrow">ОРИГИНАЛЬНАЯ ПАРКА BASK</div>
+    <h1>Putorana V2</h1>
+    <p class="sub">Мужская зимняя пуховая парка · красная · размер 52/5</p>
+    <div class="price" id="wbPrice">25 180 ₽</div>
+    <div class="meta" id="priceStatus">Цена по карточке Wildberries · обновляется автоматически</div>
+    <a class="cta" href="https://www.wildberries.ru/catalog/1605620355/detail.aspx" target="_blank" rel="noopener">Посмотреть карточку на Wildberries ↗</a>
+    <p class="note">Продажа частным лицом. Наличие и условия сделки — на странице Wildberries.</p>
+    <div class="card">
+      <h2>О пуховике</h2>
+      <p class="description">Продаётся оригинальная мужская зимняя пуховая парка BASK Putorana V2 из серии «За Полярным кругом». Куртка покупалась для себя, но после похудения стала велика. Состояние отличное: без повреждений и заметных следов эксплуатации. Все молнии, кнопки, липучки и регулировки работают исправно.</p>
+    </div>
+  </div>
 </section>
-
-<section>
-<h2>Характеристики мужского пуховика</h2>
-<div class="grid">
-<div class="item"><b>Бренд:</b> BASK</div>
-<div class="item"><b>Модель:</b> Putorana V2</div>
-<div class="item"><b>Тип:</b> мужская зимняя пуховая парка</div>
-<div class="item"><b>Размер:</b> 52/5</div>
-<div class="item"><b>Цвет:</b> красный</div>
-<div class="item"><b>Материал:</b> Advance Alaska</div>
-<div class="item"><b>Утеплитель:</b> гусиный пух 85/15</div>
-<div class="item"><b>Fill Power:</b> 650+</div>
-<div class="item"><b>Количество пуха:</b> около 420 г</div>
-<div class="item"><b>Температурный режим:</b> заявлен до −35 °C</div>
-<div class="item"><b>Водонепроницаемость:</b> 10 000 мм</div>
-<div class="item"><b>Паропроницаемость:</b> 5 000 г/м²/24 ч</div>
-<div class="item"><b>Фурнитура:</b> YKK</div>
-<div class="item"><b>Состояние:</b> отличное</div>
-</div>
+<section class="card">
+  <h2>Характеристики</h2>
+  <div class="specs">
+    <div class="spec"><b>Бренд</b><span>BASK</span></div>
+    <div class="spec"><b>Модель</b><span>Putorana V2</span></div>
+    <div class="spec"><b>Тип</b><span>Мужская зимняя пуховая парка</span></div>
+    <div class="spec"><b>Размер</b><span>52/5</span></div>
+    <div class="spec"><b>Цвет</b><span>Красный</span></div>
+    <div class="spec"><b>Верхняя ткань</b><span>Полиэстер 90%, полиамид 10%</span></div>
+    <div class="spec"><b>Подкладка</b><span>Полиамид 100%</span></div>
+    <div class="spec"><b>Утеплитель</b><span>Dry Siberian Down</span></div>
+    <div class="spec"><b>Состав утеплителя</b><span>Гусиный пух 80%, шерсть 20%</span></div>
+    <div class="spec"><b>Маркировка пуха</b><span>85/15 (пух/перо)</span></div>
+  </div>
+  <div class="features">
+    <div class="feature"><strong>Регулируемый капюшон</strong><span>Защита от ветра и снега</span></div>
+    <div class="feature"><strong>Внутренние манжеты</strong><span>Дополнительный комфорт</span></div>
+    <div class="feature"><strong>Вместительные карманы</strong><span>Внешние и внутренние</span></div>
+    <div class="feature"><strong>Боковые молнии</strong><span>Удобство при посадке в автомобиль</span></div>
+    <div class="feature"><strong>Внутренние лямки</strong><span>Можно носить парку на плечах</span></div>
+    <div class="feature"><strong>Фирменные детали</strong><span>Шеврон BASK и вышивка «Русская Арктика»</span></div>
+  </div>
 </section>
-
-<section>
-<h2>Особенности конструкции</h2>
-<div class="description">
-<ul>
-<li>Тёплые внутренние манжеты.</li>
-<li>Регулируемый капюшон.</li>
-<li>Много внешних и внутренних карманов.</li>
-<li>Боковые молнии для удобства при посадке в автомобиль.</li>
-<li>Внутренние плечевые лямки — можно снять куртку и оставить её на плечах.</li>
-<li>Качественная фурнитура YKK.</li>
-</ul>
-</div>
-</section>
-
-<div class="bottom">
-<h2>Ищете мужской зимний пуховик?</h2>
-<p>BASK Putorana V2 — красная пуховая парка, размер 52/5.</p>
-<div class="price">23 990 ₽</div>
-<a class="btn" href="https://www.wildberries.ru/catalog/1605620355/detail.aspx" target="_blank" rel="noopener noreferrer">Перейти к объявлению на Wildberries →</a>
-</div>
 </main>
-
-<footer>
-Частное объявление · BASK Putorana V2 · 2026
-</footer>
+<footer><div class="wrap">BASK Putorana V2 · Артикул WB 1605620355 · Частное объявление</div></footer>
+<div class="modal" id="modal"><button id="closeModal" aria-label="Закрыть">×</button><img id="modalImage" alt="Увеличенное фото товара"></div>
+<script>
+const ids=[1,2,3,4,5,6,7,8,9,10,11,12,13];
+const photoUrl=n=>`https://mow-basket-cdn-17.geobasket.ru/vol16056/part1605620/1605620355/images/big/${n}.webp?picsUpdate=0`;
+const main=document.getElementById('mainPhoto');
+const thumbs=document.getElementById('thumbs');
+ids.forEach(n=>{
+  const b=document.createElement('button');b.className='thumb';b.type='button';b.setAttribute('aria-label',`Фото ${n}`);
+  const im=document.createElement('img');im.src=photoUrl(n);im.alt=`Фото ${n} парки BASK Putorana V2`;im.loading='lazy';
+  b.appendChild(im);b.addEventListener('click',()=>{main.src=photoUrl(n);main.alt=`Фото ${n} парки BASK Putorana V2`;});
+  thumbs.appendChild(b);
+});
+async function loadPrice(){
+  const priceEl=document.getElementById('wbPrice');
+  const statusEl=document.getElementById('priceStatus');
+  try{
+    const response=await fetch(`price.json?t=${Date.now()}`,{cache:'no-store'});
+    if(!response.ok) throw new Error('price unavailable');
+    const data=await response.json();
+    if(!Number.isFinite(data.price)||data.price<=0) throw new Error('invalid price');
+    priceEl.textContent=new Intl.NumberFormat('ru-RU').format(data.price)+' ₽';
+    statusEl.textContent='Цена из карточки Wildberries · обновлено '+new Date(data.updated_at).toLocaleString('ru-RU');
+  }catch(e){statusEl.textContent='Не удалось обновить цену. Проверьте её на Wildberries.';}
+}
+loadPrice();
+const modal=document.getElementById('modal'),modalImage=document.getElementById('modalImage');
+main.addEventListener('click',()=>{modalImage.src=main.src;modal.classList.add('open')});
+document.getElementById('closeModal').addEventListener('click',()=>modal.classList.remove('open'));
+modal.addEventListener('click',e=>{if(e.target===modal)modal.classList.remove('open')});
+</script>
 </body>
 </html>
